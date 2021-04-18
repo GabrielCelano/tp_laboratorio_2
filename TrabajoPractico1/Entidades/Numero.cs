@@ -60,7 +60,7 @@ namespace Entidades
         /// <returns>double</returns>
         private double ValidarNumero(string strNumero)
         {
-            double aux = 0;
+            double aux;
             if (double.TryParse(strNumero, out aux))
             {
                return aux;
@@ -136,7 +136,7 @@ namespace Entidades
                 resultado = Convert.ToString(resto) + resultado;
                 numIng /= 2;
             }
-            return resultado = Convert.ToString(numIng) + resultado;
+            return Convert.ToString(numIng) + resultado;
         }
         /// <summary>
         /// Recive un decimal(string) como parametro el cual es convertido a binario
@@ -156,7 +156,7 @@ namespace Entidades
                 resultado = Convert.ToString(resto) + resultado;
                 numIng /= 2;
             }
-            return resultado = Convert.ToString(numIng) + resultado;
+            return Convert.ToString(numIng) + resultado;
         }
         #endregion
 
