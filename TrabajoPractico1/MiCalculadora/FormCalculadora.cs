@@ -28,7 +28,7 @@ namespace MiCalculadora
             lblResultado.ResetText();
             txtNumero1.ResetText();
             txtNumero2.ResetText();
-            cmbOperador.ResetText();
+            cmbOperador.Text = "Operador";
             btnConvertirABinario.Enabled = false;
             btnConvertirADecimal.Enabled = false;
         }

@@ -99,9 +99,13 @@ namespace Entidades
                 {
                     d *= 2;
                     if (num == '1')
+                    {
                         d += 1;
+                    }
                     else if (num != '0')
+                    {
                         d = 0;
+                    }                       
                 }
             }
 
