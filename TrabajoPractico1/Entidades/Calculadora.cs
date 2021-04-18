@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Calculadora
+    public static class Calculadora
     {
         #region Metodos
         /// <summary>
@@ -18,7 +18,7 @@ namespace Entidades
         /// <param name="numero2"></param>
         /// <param name="operador"></param>
         /// <returns>double</returns>
-        public double Operar(Numero numero1, Numero numero2, string operador)
+        public static double Operar(Numero numero1, Numero numero2, string operador)
         {
             double total = 0;
             switch (ValidarOperador(operador))

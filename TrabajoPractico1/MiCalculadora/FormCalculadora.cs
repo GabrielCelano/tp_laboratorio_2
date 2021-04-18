@@ -23,11 +23,11 @@ namespace MiCalculadora
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void btnLimpiar_Click(object sender, EventArgs e)
+        private void BtnLimpiar_Click(object sender, EventArgs e)
         {
-            lblResultado.ResetText();
-            txtNumero1.ResetText();
-            txtNumero2.ResetText();
+            lblResultado.Text = "";
+            txtNumero1.Text = "";
+            txtNumero2.Text = "";
             cmbOperador.Text = "Operador";
             btnConvertirABinario.Enabled = false;
             btnConvertirADecimal.Enabled = false;
@@ -40,7 +40,7 @@ namespace MiCalculadora
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void btnOperar_Click(object sender, EventArgs e)
+        private void BtnOperar_Click(object sender, EventArgs e)
         {
             if (cmbOperador.SelectedIndex != -1 && txtNumero1.TextLength !=0 && txtNumero2.TextLength != 0)
             {
@@ -67,16 +67,16 @@ namespace MiCalculadora
         /// <returns>double</returns>
         private static double Operar(string numero1, string numero2, string operador)
         {
-            double aux1 = 0;
-            double aux2 = 0;
+            double aux1;
+            double aux2;
 
             if (double.TryParse(numero1, out aux1) && double.TryParse(numero2, out aux2) && (aux2 != 0 || operador != "/"))
             {
-                double resultado = 0;
+                //double resultado;
                 Numero operador1 = new Numero(aux1);
                 Numero operador2 = new Numero(aux2);
-                Calculadora calculo = new Calculadora();
-                return resultado = calculo.Operar(operador1, operador2, operador);
+                //Calculadora calculo = new Calculadora();
+                return Calculadora.Operar(operador1, operador2, operador);
             }
 
             else
@@ -91,7 +91,7 @@ namespace MiCalculadora
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void btnCerrar_Click(object sender, EventArgs e)
+        private void BtnCerrar_Click(object sender, EventArgs e)
         {
             this.Close();
         }
@@ -105,9 +105,9 @@ namespace MiCalculadora
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void btnConvertirABinario_Click(object sender, EventArgs e)
+        private void BtnConvertirABinario_Click(object sender, EventArgs e)
         {
-            int aux = 0;
+            int aux;
             if (int.TryParse(lblResultado.Text, out aux))
             {
                 Numero numeroBinario = new Numero();
@@ -129,10 +129,10 @@ namespace MiCalculadora
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void btnConvertirADecimal_Click(object sender, EventArgs e)
+        private void BtnConvertirADecimal_Click(object sender, EventArgs e)
         {
             Numero numDecimal = new Numero();
-            lblResultado.Text = numDecimal.BinarioDecimal(lblResultado.Text).ToString();
+            lblResultado.Text = numDecimal.BinarioDecimal(lblResultado.Text);
             btnConvertirABinario.Enabled = true;
             btnConvertirADecimal.Enabled = false;
         }

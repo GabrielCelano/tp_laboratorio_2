@@ -79,7 +79,7 @@ namespace MiCalculadora
             this.btnOperar.TabIndex = 3;
             this.btnOperar.Text = "Operar";
             this.btnOperar.UseVisualStyleBackColor = true;
-            this.btnOperar.Click += new System.EventHandler(this.btnOperar_Click);
+            this.btnOperar.Click += new System.EventHandler(this.BtnOperar_Click);
             // 
             // btnLimpiar
             // 
@@ -89,7 +89,7 @@ namespace MiCalculadora
             this.btnLimpiar.TabIndex = 4;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
-            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
+            this.btnLimpiar.Click += new System.EventHandler(this.BtnLimpiar_Click);
             // 
             // btnCerrar
             // 
@@ -99,7 +99,7 @@ namespace MiCalculadora
             this.btnCerrar.TabIndex = 5;
             this.btnCerrar.Text = "Cerrar";
             this.btnCerrar.UseVisualStyleBackColor = true;
-            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
+            this.btnCerrar.Click += new System.EventHandler(this.BtnCerrar_Click);
             // 
             // btnConvertirABinario
             // 
@@ -109,7 +109,7 @@ namespace MiCalculadora
             this.btnConvertirABinario.TabIndex = 6;
             this.btnConvertirABinario.Text = "Convertir a Binario";
             this.btnConvertirABinario.UseVisualStyleBackColor = true;
-            this.btnConvertirABinario.Click += new System.EventHandler(this.btnConvertirABinario_Click);
+            this.btnConvertirABinario.Click += new System.EventHandler(this.BtnConvertirABinario_Click);
             // 
             // btnConvertirADecimal
             // 
@@ -119,7 +119,7 @@ namespace MiCalculadora
             this.btnConvertirADecimal.TabIndex = 7;
             this.btnConvertirADecimal.Text = "Convertir a Decimal";
             this.btnConvertirADecimal.UseVisualStyleBackColor = true;
-            this.btnConvertirADecimal.Click += new System.EventHandler(this.btnConvertirADecimal_Click);
+            this.btnConvertirADecimal.Click += new System.EventHandler(this.BtnConvertirADecimal_Click);
             // 
             // label1
             // 
