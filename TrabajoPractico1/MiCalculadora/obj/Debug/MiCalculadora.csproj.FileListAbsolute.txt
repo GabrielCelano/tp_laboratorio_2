@@ -1,0 +1,13 @@
+C:\Users\WSC30\source\repos\Facultad\Calculadora\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\WSC30\source\repos\Facultad\Calculadora\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Users\WSC30\source\repos\Facultad\Calculadora\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Users\WSC30\source\repos\Facultad\Calculadora\MiCalculadora\bin\Debug\Entidades.dll
+C:\Users\WSC30\source\repos\Facultad\Calculadora\MiCalculadora\bin\Debug\Entidades.pdb
+C:\Users\WSC30\source\repos\Facultad\Calculadora\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+C:\Users\WSC30\source\repos\Facultad\Calculadora\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Users\WSC30\source\repos\Facultad\Calculadora\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+C:\Users\WSC30\source\repos\Facultad\Calculadora\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\WSC30\source\repos\Facultad\Calculadora\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+C:\Users\WSC30\source\repos\Facultad\Calculadora\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\WSC30\source\repos\Facultad\Calculadora\MiCalculadora\obj\Debug\MiCalculadora.pdb
+C:\Users\WSC30\source\repos\Facultad\Calculadora\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
