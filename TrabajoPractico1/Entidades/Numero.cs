@@ -16,7 +16,10 @@ namespace Entidades
         /// <summary>
         /// Setea los datos en 0
         /// </summary>
-        public Numero() { }
+        public Numero()
+        {
+            this.numero = 0;
+        }
 
         /// <summary>
         /// Setea el parametro "numero" en el atributo "numero" de la clase
@@ -63,7 +66,7 @@ namespace Entidades
             double aux;
             if (double.TryParse(strNumero, out aux))
             {
-               return aux;
+                return aux;
             }
             return aux;
         }
@@ -76,11 +79,11 @@ namespace Entidades
         /// <returns>bool</returns>
         private bool EsBinario(string binario)
         {
-            if (!(binario.Contains('1')) || !(binario.Contains('0')))
+            if ((binario.Contains('1')) || (binario.Contains('0')))
             {
-                return false;
+                return true;
             }
-            return true;
+            return false;
         }
 
         /// <summary>
@@ -92,29 +95,27 @@ namespace Entidades
         /// <returns>string</returns>
         public string BinarioDecimal(string binario)
         {
-            double d = 0;
             if (EsBinario(binario))
             {
-                foreach (var num in binario)
+                char[] auxiliarBinario = binario.ToCharArray();//Paso a array
+                Array.Reverse(auxiliarBinario);
+                double binarioConvertido = 0;
+
+                for (int indicePotencia = 0; indicePotencia < auxiliarBinario.Length; indicePotencia++)
                 {
-                    d *= 2;
-                    if (num == '1')
+                    if (auxiliarBinario[indicePotencia] == '1')
                     {
-                        d += 1;
+                        binarioConvertido += Math.Pow(2, indicePotencia);
                     }
-                    else if (num != '0')
-                    {
-                        d = 0;
-                    }                       
                 }
+
+                return binarioConvertido.ToString();
             }
 
-            else
+            else //Si nunca encontró un 1, lo doy inválido
             {
-                return "Es invalido.";
+                return "Valor inválido";
             }
-
-            return d.ToString();
         }
 
         /// <summary>
@@ -126,17 +127,8 @@ namespace Entidades
         /// 
         public string DecimalBinario(double numero)
         {
-            string resultado = "";
-            long numIng = Convert.ToInt64(numero);
-            numIng = Math.Abs(numIng);
-
-            while (numIng > 1)
-            {
-                long resto = numIng % 2;
-                resultado = Convert.ToString(resto) + resultado;
-                numIng /= 2;
-            }
-            return Convert.ToString(numIng) + resultado;
+            string strNumero = numero.ToString();
+            return DecimalBinario(strNumero);
         }
         /// <summary>
         /// Recive un decimal(string) como parametro el cual es convertido a binario
@@ -146,17 +138,33 @@ namespace Entidades
         /// <returns>string</returns>
         public string DecimalBinario(string numero)
         {
-            string resultado = "";
-            long numIng = Convert.ToInt64(numero);
-            numIng = Math.Abs(numIng);
+            Numero auxiliarConversion = new Numero(numero);
+            char[] arrayBinario;
+            string resultadoBinario = "";
+            int aux = (int)auxiliarConversion.numero;
 
-            while (numIng > 1)
+            while (aux > 0)
             {
-                long resto = numIng % 2;
-                resultado = Convert.ToString(resto) + resultado;
-                numIng /= 2;
+                if (aux % 2 == 0)
+                {
+                    resultadoBinario += "0";
+                }
+                else if (aux == 0)
+                {
+                    resultadoBinario = "0";
+                }
+                else
+                {
+                    resultadoBinario += "1";
+                }
+
+                aux = aux / 2;
             }
-            return Convert.ToString(numIng) + resultado;
+
+            arrayBinario = resultadoBinario.ToCharArray();
+            Array.Reverse(arrayBinario);
+
+            return new string(arrayBinario);
         }
         #endregion
 

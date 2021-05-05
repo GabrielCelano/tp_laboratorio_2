@@ -25,12 +25,7 @@ namespace MiCalculadora
         /// <param name="e"></param>
         private void BtnLimpiar_Click(object sender, EventArgs e)
         {
-            lblResultado.Text = "";
-            txtNumero1.Text = "";
-            txtNumero2.Text = "";
-            cmbOperador.Text = "Operador";
-            btnConvertirABinario.Enabled = false;
-            btnConvertirADecimal.Enabled = false;
+            this.Limpiar();
         }
 
         /// <summary>
@@ -42,48 +37,19 @@ namespace MiCalculadora
         /// <param name="e"></param>
         private void BtnOperar_Click(object sender, EventArgs e)
         {
-            if (cmbOperador.SelectedIndex != -1 && txtNumero1.TextLength !=0 && txtNumero2.TextLength != 0)
-            {
-                double resultado = Operar(txtNumero1.Text, txtNumero2.Text, cmbOperador.Text);
-                lblResultado.Text = resultado.ToString();
-                btnConvertirABinario.Enabled = true;
-                btnConvertirADecimal.Enabled = false;
-            }
 
-            else
-            {
-                MessageBox.Show("1. Primero ingresar los numeros a operar. \n2. Segundo seleccionar operador.", "Atencion!", MessageBoxButtons.OK);
-            }
+            double resultado = Operar(this.txtNumero1.Text,this.txtNumero2.Text, this.cmbOperador.Text);
+            string strResultado = resultado.ToString();
+            lblResultado.Text = strResultado;
+            btnConvertirABinario.Enabled = true;
+            btnConvertirADecimal.Enabled = false;
 
-        }
 
-        /// <summary>
-        /// Instancia la calculadora y los dos operadores ingresados por el usuario, valida estos operadores y los operando(por si quiere dividir por cero) y luego hace la operacion y retorna el resultado
-        /// En caso de no poder realizar la operacion da un mesaje de error y devuelve 0
-        /// </summary>
-        /// <param name="numero1"></param>
-        /// <param name="numero2"></param>
-        /// <param name="operador"></param>
-        /// <returns>double</returns>
-        private static double Operar(string numero1, string numero2, string operador)
-        {
-            double aux1;
-            double aux2;
+            //else
+            //{
+            //    MessageBox.Show("1. Primero ingresar los numeros a operar. \n2. Segundo seleccionar operador.", "Atencion!", MessageBoxButtons.OK);
+            //}
 
-            if (double.TryParse(numero1, out aux1) && double.TryParse(numero2, out aux2) && (aux2 != 0 || operador != "/"))
-            {
-                //double resultado;
-                Numero operador1 = new Numero(aux1);
-                Numero operador2 = new Numero(aux2);
-                //Calculadora calculo = new Calculadora();
-                return Calculadora.Operar(operador1, operador2, operador);
-            }
-
-            else
-            {
-                MessageBox.Show("Error en los campos ingresados!\nPosible error: No se puede dividir por cero.", "Atencion!", MessageBoxButtons.OK);
-                return 0;
-            }          
         }
 
         /// <summary>
@@ -107,19 +73,10 @@ namespace MiCalculadora
         /// <param name="e"></param>
         private void BtnConvertirABinario_Click(object sender, EventArgs e)
         {
-            int aux;
-            if (int.TryParse(lblResultado.Text, out aux))
-            {
-                Numero numeroBinario = new Numero();
-                lblResultado.Text = numeroBinario.DecimalBinario(aux);
-                btnConvertirABinario.Enabled = false;
-                btnConvertirADecimal.Enabled = true;
-            }
-
-            else
-            {
-                MessageBox.Show("Solo se puede convertir a binario numeros enteros!", "Atencion!", MessageBoxButtons.OK);
-            }
+            Numero numeroBinario = new Numero();
+            this.lblResultado.Text = numeroBinario.DecimalBinario(this.lblResultado.Text);
+            this.btnConvertirABinario.Enabled = false;
+            this.btnConvertirADecimal.Enabled = true;
         }
 
         /// <summary>
@@ -132,9 +89,9 @@ namespace MiCalculadora
         private void BtnConvertirADecimal_Click(object sender, EventArgs e)
         {
             Numero numDecimal = new Numero();
-            lblResultado.Text = numDecimal.BinarioDecimal(lblResultado.Text);
-            btnConvertirABinario.Enabled = true;
-            btnConvertirADecimal.Enabled = false;
+            this.lblResultado.Text = numDecimal.BinarioDecimal(this.lblResultado.Text);
+            this.btnConvertirABinario.Enabled = true;
+            this.btnConvertirADecimal.Enabled = false;
         }
 
         /// <summary>
@@ -144,8 +101,45 @@ namespace MiCalculadora
         /// <param name="e"></param>
         private void FormCalculadora_Load(object sender, EventArgs e)
         {
-            btnConvertirABinario.Enabled = false;
-            btnConvertirADecimal.Enabled = false;
+            this.btnConvertirABinario.Enabled = false;
+            this.btnConvertirADecimal.Enabled = false;
+            this.MinimizeBox = false;
+            this.MaximizeBox = false;
+            this.btnConvertirABinario.Enabled = false;
+            this.btnConvertirADecimal.Enabled = false;
         }
+
+        #region Metodos
+        /// <summary>
+        /// Instancia la calculadora y los dos operadores ingresados por el usuario, valida estos operadores y los operando(por si quiere dividir por cero) y luego hace la operacion y retorna el resultado
+        /// En caso de no poder realizar la operacion da un mesaje de error y devuelve 0
+        /// </summary>
+        /// <param name="numero1"></param>
+        /// <param name="numero2"></param>
+        /// <param name="operador"></param>
+        /// <returns>double</returns>
+        private static double Operar(string numero1, string numero2, string operador)
+        {
+            //double resultado;
+            Numero num1 = new Numero(numero1);
+            Numero num2 = new Numero(numero2);
+            //Calculadora calculo = new Calculadora();
+            return Calculadora.Operar(num1, num2, operador[0]);
+        }
+
+        /// <summary>
+        /// Restablesco los TextBox, el ComboBov y el Label por defecto
+        /// Deshabilita los botones de conversion
+        /// </summary>
+        private void Limpiar()
+        {
+            this.lblResultado.Text = "";
+            this.txtNumero1.Text = "";
+            this.txtNumero2.Text = "";
+            this.cmbOperador.Text = "Operador";
+            this.btnConvertirABinario.Enabled = false;
+            this.btnConvertirADecimal.Enabled = false;
+        }
+        #endregion
     }
 }

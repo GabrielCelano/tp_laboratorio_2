@@ -18,7 +18,7 @@ namespace Entidades
         /// <param name="numero2"></param>
         /// <param name="operador"></param>
         /// <returns>double</returns>
-        public static double Operar(Numero numero1, Numero numero2, string operador)
+        public static double Operar(Numero numero1, Numero numero2, char operador)
         {
             double total = 0;
             switch (ValidarOperador(operador))
@@ -45,14 +45,29 @@ namespace Entidades
         /// </summary>
         /// <param name="operador"></param>
         /// <returns>string</returns>
-        private static string ValidarOperador(string operador)
+        private static string ValidarOperador(char operador)
         {
-            if (operador == "+" || operador == "-" || operador == "*" || operador == "/")
+            string operadorValidado = "";
+            switch (operador)
             {
-                return operador;
+                case '+':
+                    operadorValidado = "+";
+                    break;
+                case '-':
+                    operadorValidado = "-";
+                    break;
+                case '*':
+                    operadorValidado = "*";
+                    break;
+                case '/':
+                    operadorValidado = "/";
+                    break;
+                default:
+                    operadorValidado = "+";
+                    break;
             }
 
-            return "+";
+            return operadorValidado;
         }
         #endregion
     }
