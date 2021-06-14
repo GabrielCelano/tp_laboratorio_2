@@ -26,7 +26,7 @@ namespace Entidades
         }
 
         public Sedan(EMarca marca, string chasis, ConsoleColor color, ETipo tipo)
-            : base(chasis, marca, color)
+            : this(marca, chasis, color)
         {
             this.tipo = tipo;
         }

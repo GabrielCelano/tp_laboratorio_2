@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Excepciones.DniInvalidoException">
+    <Position X="3.25" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Excepciones\DniInvalidoException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Excepciones.StringInvalidoException">
+    <Position X="5.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Excepciones\StringInvalidoException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Excepciones.IDInvalidoException">
+    <Position X="3.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Excepciones\IDInvalidoException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Excepciones.ArchivosException">
+    <Position X="7.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Excepciones\ArchivosException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Excepciones.ListaAlternadoresVaciaException">
+    <Position X="9.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Excepciones\ListaAlternadoresVaciaException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Excepciones.ListaArranquesVaciaException">
+    <Position X="10.25" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Excepciones\ListaArranquesVaciaException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Excepciones.ListaOperariosVaciaException">
+    <Position X="3.25" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Excepciones\ListaOperariosVaciaException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Excepciones.OperarioInvalidoException">
+    <Position X="7.75" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Excepciones\OperarioInvalidoException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Excepciones.OperarioRepetidoException">
+    <Position X="5.75" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Excepciones\OperarioRepetidoException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Excepciones.VerificacionInvalidaException">
+    <Position X="5.25" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Excepciones\VerificacionInvalidaException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClasesInstanciables.Operario">
+    <Position X="1.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAgAAA4AAgACAAAAAAAAAAAAAAAAAAAiA=</HashCode>
+      <FileName>Clases\Operario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClasesInstanciables.Fabrica">
+    <Position X="3.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAEIQBAAAAAQCIARAAACMAFABBABAiQ=</HashCode>
+      <FileName>Clases\Fabrica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClasesInstanciables.FabricacionArranques">
+    <Position X="6.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAQBEAAAARAAACAAAAAAABAEAAAAAAIAAgBAAACAA=</HashCode>
+      <FileName>Clases\FabricacionArranques.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClasesInstanciables.FabricacionAlternadores">
+    <Position X="9.25" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AQAAABEAAAASAAAAAAAAAAIAAEAKAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Clases\FabricacionAlternadores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

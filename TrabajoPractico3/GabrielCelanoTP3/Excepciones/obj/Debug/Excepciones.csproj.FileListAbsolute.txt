@@ -1,0 +1,12 @@
+C:\Users\WSC30\Desktop\GabrielCelanoTP3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\WSC30\Desktop\GabrielCelanoTP3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\WSC30\Desktop\GabrielCelanoTP3\Excepciones\obj\Debug\Excepciones.csproj.AssemblyReference.cache
+C:\Users\WSC30\Desktop\GabrielCelanoTP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\WSC30\Desktop\GabrielCelanoTP3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\WSC30\Desktop\GabrielCelanoTP3\Excepciones\obj\Debug\Excepciones.pdb
+C:\Users\WSC30\Documents\GitHub\tp_laboratorio_2\TrabajoPractico3\GabrielCelanoTP3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\WSC30\Documents\GitHub\tp_laboratorio_2\TrabajoPractico3\GabrielCelanoTP3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\WSC30\Documents\GitHub\tp_laboratorio_2\TrabajoPractico3\GabrielCelanoTP3\Excepciones\obj\Debug\Excepciones.csproj.AssemblyReference.cache
+C:\Users\WSC30\Documents\GitHub\tp_laboratorio_2\TrabajoPractico3\GabrielCelanoTP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\WSC30\Documents\GitHub\tp_laboratorio_2\TrabajoPractico3\GabrielCelanoTP3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\WSC30\Documents\GitHub\tp_laboratorio_2\TrabajoPractico3\GabrielCelanoTP3\Excepciones\obj\Debug\Excepciones.pdb
