@@ -1,0 +1,6 @@
+C:\Users\WSC30\source\repos\ReworkTP3\Exepciones\bin\Debug\Exepciones.dll
+C:\Users\WSC30\source\repos\ReworkTP3\Exepciones\bin\Debug\Exepciones.pdb
+C:\Users\WSC30\source\repos\ReworkTP3\Exepciones\obj\Debug\Exepciones.csproj.AssemblyReference.cache
+C:\Users\WSC30\source\repos\ReworkTP3\Exepciones\obj\Debug\Exepciones.csproj.CoreCompileInputs.cache
+C:\Users\WSC30\source\repos\ReworkTP3\Exepciones\obj\Debug\Exepciones.dll
+C:\Users\WSC30\source\repos\ReworkTP3\Exepciones\obj\Debug\Exepciones.pdb

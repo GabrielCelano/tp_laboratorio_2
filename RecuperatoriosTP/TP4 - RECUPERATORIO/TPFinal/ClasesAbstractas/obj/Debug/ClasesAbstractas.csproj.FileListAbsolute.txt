@@ -1,0 +1,18 @@
+C:\Users\WSC30\source\repos\ReworkTP3\ClasesAbstractas\bin\Debug\ClasesAbstractas.dll
+C:\Users\WSC30\source\repos\ReworkTP3\ClasesAbstractas\bin\Debug\ClasesAbstractas.pdb
+C:\Users\WSC30\source\repos\ReworkTP3\ClasesAbstractas\bin\Debug\Exepciones.dll
+C:\Users\WSC30\source\repos\ReworkTP3\ClasesAbstractas\bin\Debug\Exepciones.pdb
+C:\Users\WSC30\source\repos\ReworkTP3\ClasesAbstractas\obj\Debug\ClasesAbstractas.csproj.AssemblyReference.cache
+C:\Users\WSC30\source\repos\ReworkTP3\ClasesAbstractas\obj\Debug\ClasesAbstractas.csproj.CoreCompileInputs.cache
+C:\Users\WSC30\source\repos\ReworkTP3\ClasesAbstractas\obj\Debug\ClasesAbstractas.csproj.CopyComplete
+C:\Users\WSC30\source\repos\ReworkTP3\ClasesAbstractas\obj\Debug\ClasesAbstractas.dll
+C:\Users\WSC30\source\repos\ReworkTP3\ClasesAbstractas\obj\Debug\ClasesAbstractas.pdb
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\ClasesAbstractas\bin\Debug\ClasesAbstractas.dll
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\ClasesAbstractas\bin\Debug\ClasesAbstractas.pdb
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\ClasesAbstractas\bin\Debug\Exepciones.dll
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\ClasesAbstractas\bin\Debug\Exepciones.pdb
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\ClasesAbstractas\obj\Debug\ClasesAbstractas.csproj.AssemblyReference.cache
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\ClasesAbstractas\obj\Debug\ClasesAbstractas.csproj.CoreCompileInputs.cache
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\ClasesAbstractas\obj\Debug\ClasesAbstractas.csproj.CopyComplete
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\ClasesAbstractas\obj\Debug\ClasesAbstractas.dll
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\ClasesAbstractas\obj\Debug\ClasesAbstractas.pdb

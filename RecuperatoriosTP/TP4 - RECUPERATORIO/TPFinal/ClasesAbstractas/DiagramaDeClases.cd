@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClasesAbstractas.Persona">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAIQAAACEAAAAgAAAAAEAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Clases\Persona.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClasesInstanciables.Arranque">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAGAAAEAgAAIAAAASAAAAEAABAAAAAQAAA=</HashCode>
+      <FileName>Clases\Arranque.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClasesInstanciables.Alternador">
+    <Position X="9.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAgEAAAAIAAAACAAAAACAAAhAgAAIQA=</HashCode>
+      <FileName>Clases\Alternador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClasesInstanciables.Clases.Repuestos">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQACAAGAAgEAgAAIAAAASAAAAECABAhAgAQIQA=</HashCode>
+      <FileName>Clases\Repuestos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

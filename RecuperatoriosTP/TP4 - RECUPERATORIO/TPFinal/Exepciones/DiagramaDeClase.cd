@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Excepciones.ActualizarBdException">
+    <Position X="3.75" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ActualizarBdException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Excepciones.ArchivoException">
+    <Position X="8.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ArchivoException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Excepciones.DniInvalidoException">
+    <Position X="13.25" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DniInvalidoException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Excepciones.GuardarBdException">
+    <Position X="11.25" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GuardarBdException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Excepciones.LeerBdException">
+    <Position X="13.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LeerBdException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Excepciones.ListaDeFabricacionesVaciaException">
+    <Position X="10.5" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ListaDeFabricacionesVaciaException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Excepciones.ListaOperariosVaciaException">
+    <Position X="8.5" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ListaDeOperariosVaciaException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Excepciones.StringInvalidoException">
+    <Position X="6" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StringInvalidoException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Excepciones.VerificacionInvalidaException">
+    <Position X="6" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VerificacionInvalidaException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Excepciones.VerificarBdException">
+    <Position X="3.75" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VerificarBdException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

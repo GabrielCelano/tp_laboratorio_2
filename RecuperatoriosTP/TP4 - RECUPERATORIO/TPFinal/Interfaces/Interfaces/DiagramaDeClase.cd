@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Interface Name="Interfaces.Interfaces.IArchivos&lt;T&gt;">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAABAAAAAA=</HashCode>
+      <FileName>Interfaces\IArchivos.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.Interfaces.IBaseDeDatos&lt;T, U&gt;">
+    <Position X="9.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAFAAAAAA=</HashCode>
+      <FileName>Interfaces\IBaseDeDatos.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.Interfaces.IFabricar">
+    <Position X="5.75" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Interfaces\IFabricar.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

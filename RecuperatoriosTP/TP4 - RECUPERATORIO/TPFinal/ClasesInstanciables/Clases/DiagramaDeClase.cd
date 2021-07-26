@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClasesInstanciables.Clases.Alternador">
+    <Position X="12.25" Y="1.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="ClasesInstanciables.Clases.Alternador.Fabricar">
+        <TypeIdentifier>
+          <NewMemberFileName>Clases\Alternador.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IQAAIBEAAAAQAAAAAAAAAAAgAGAAAAAAAAACYQAAAAA=</HashCode>
+      <FileName>Clases\Alternador.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ClasesInstanciables.Clases.Arranque">
+    <Position X="10.25" Y="1.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="ClasesInstanciables.Clases.Arranque.Fabricar">
+        <TypeIdentifier>
+          <NewMemberFileName>Clases\Arranque.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IQAAIBEAAAAQAAAAAAAAAAAgAGAAAAAAAAACYQAAAAA=</HashCode>
+      <FileName>Clases\Arranque.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ClasesInstanciables.Clases.Fabrica">
+    <Position X="8" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAACAAAAAgAAQAAAAAAAAAAAAAACAAEABBABAiA=</HashCode>
+      <FileName>Clases\Fabrica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClasesInstanciables.Clases.Fabricacion">
+    <Position X="5.75" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACBAAAAQBAAAAAQAAARAIAAEAAAAAAAAiA=</HashCode>
+      <FileName>Clases\Fabricacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClasesInstanciables.Clases.Operario">
+    <Position X="3.75" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAwAAAAAAAAAAAABAAAAAQAAAAAiA=</HashCode>
+      <FileName>Clases\Operario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

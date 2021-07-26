@@ -1,0 +1,12 @@
+C:\Users\WSC30\source\repos\ReworkTP3\Interfaces\bin\Debug\Interfaces.dll
+C:\Users\WSC30\source\repos\ReworkTP3\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\WSC30\source\repos\ReworkTP3\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\WSC30\source\repos\ReworkTP3\Interfaces\obj\Debug\Interfaces.dll
+C:\Users\WSC30\source\repos\ReworkTP3\Interfaces\obj\Debug\Interfaces.pdb
+C:\Users\WSC30\source\repos\ReworkTP3\Interfaces\obj\Debug\Interfaces.csproj.AssemblyReference.cache
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\Interfaces\bin\Debug\Interfaces.dll
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\Interfaces\obj\Debug\Interfaces.csproj.AssemblyReference.cache
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\Interfaces\obj\Debug\Interfaces.dll
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\Interfaces\obj\Debug\Interfaces.pdb

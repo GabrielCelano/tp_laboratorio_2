@@ -1,0 +1,26 @@
+C:\Users\WSC30\source\repos\ReworkTP3\ClasesInstanciables\bin\Debug\ClasesInstanciables.dll
+C:\Users\WSC30\source\repos\ReworkTP3\ClasesInstanciables\bin\Debug\ClasesInstanciables.pdb
+C:\Users\WSC30\source\repos\ReworkTP3\ClasesInstanciables\bin\Debug\ClasesAbstractas.dll
+C:\Users\WSC30\source\repos\ReworkTP3\ClasesInstanciables\bin\Debug\Exepciones.dll
+C:\Users\WSC30\source\repos\ReworkTP3\ClasesInstanciables\bin\Debug\ClasesAbstractas.pdb
+C:\Users\WSC30\source\repos\ReworkTP3\ClasesInstanciables\bin\Debug\Exepciones.pdb
+C:\Users\WSC30\source\repos\ReworkTP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.AssemblyReference.cache
+C:\Users\WSC30\source\repos\ReworkTP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.CoreCompileInputs.cache
+C:\Users\WSC30\source\repos\ReworkTP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.CopyComplete
+C:\Users\WSC30\source\repos\ReworkTP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.dll
+C:\Users\WSC30\source\repos\ReworkTP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.pdb
+C:\Users\WSC30\source\repos\ReworkTP3\ClasesInstanciables\bin\Debug\Interfaces.dll
+C:\Users\WSC30\source\repos\ReworkTP3\ClasesInstanciables\bin\Debug\Interfaces.pdb
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\ClasesInstanciables\bin\Debug\ClasesInstanciables.dll
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\ClasesInstanciables\bin\Debug\ClasesInstanciables.pdb
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\ClasesInstanciables\bin\Debug\ClasesAbstractas.dll
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\ClasesInstanciables\bin\Debug\Exepciones.dll
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\ClasesInstanciables\bin\Debug\Interfaces.dll
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\ClasesInstanciables\bin\Debug\ClasesAbstractas.pdb
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\ClasesInstanciables\bin\Debug\Exepciones.pdb
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\ClasesInstanciables\bin\Debug\Interfaces.pdb
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.AssemblyReference.cache
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.CoreCompileInputs.cache
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.CopyComplete
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\ClasesInstanciables\obj\Debug\ClasesInstanciables.dll
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\ClasesInstanciables\obj\Debug\ClasesInstanciables.pdb

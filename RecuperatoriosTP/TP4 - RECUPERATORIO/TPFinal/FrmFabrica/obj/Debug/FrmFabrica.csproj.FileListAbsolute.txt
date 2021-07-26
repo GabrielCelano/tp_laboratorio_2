@@ -1,0 +1,50 @@
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\bin\Debug\FrmFabrica.exe.config
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\bin\Debug\FrmFabrica.exe
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\bin\Debug\FrmFabrica.pdb
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\bin\Debug\ClasesAbstractas.dll
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\bin\Debug\ClasesInstanciables.dll
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\bin\Debug\Exepciones.dll
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\bin\Debug\ClasesAbstractas.pdb
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\bin\Debug\ClasesInstanciables.pdb
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\bin\Debug\Exepciones.pdb
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\obj\Debug\FrmFabrica.csproj.AssemblyReference.cache
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\obj\Debug\FrmFabrica.FrmAltaOperario.resources
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\obj\Debug\FrmFabrica.FrmPrincipal.resources
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\obj\Debug\FrmFabrica.Properties.Resources.resources
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\obj\Debug\FrmFabrica.csproj.GenerateResource.cache
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\obj\Debug\FrmFabrica.csproj.CoreCompileInputs.cache
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\obj\Debug\FrmFabrica.csproj.CopyComplete
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\obj\Debug\FrmFabrica.exe
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\obj\Debug\FrmFabrica.pdb
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\obj\Debug\FrmFabrica.FrmAlternadores.resources
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\obj\Debug\FrmFabrica.FrmArranques.resources
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\bin\Debug\Archivos.dll
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\bin\Debug\Archivos.pdb
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\bin\Debug\Archivos.dll.config
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\bin\Debug\Interfaces.dll
+C:\Users\WSC30\source\repos\ReworkTP3\FrmFabrica\bin\Debug\Interfaces.pdb
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\bin\Debug\FrmFabrica.exe.config
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\bin\Debug\FrmFabrica.exe
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\bin\Debug\FrmFabrica.pdb
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\bin\Debug\Archivos.dll
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\bin\Debug\ClasesAbstractas.dll
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\bin\Debug\ClasesInstanciables.dll
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\bin\Debug\Exepciones.dll
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\bin\Debug\Interfaces.dll
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\bin\Debug\Archivos.pdb
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\bin\Debug\Archivos.dll.config
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\bin\Debug\ClasesAbstractas.pdb
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\bin\Debug\ClasesInstanciables.pdb
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\bin\Debug\Exepciones.pdb
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\bin\Debug\Interfaces.pdb
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\obj\Debug\FrmFabrica.csproj.AssemblyReference.cache
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\obj\Debug\FrmFabrica.FrmAltaOperario.resources
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\obj\Debug\FrmFabrica.FrmAlternadores.resources
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\obj\Debug\FrmFabrica.FrmArranques.resources
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\obj\Debug\FrmFabrica.FrmPrincipal.resources
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\obj\Debug\FrmFabrica.Properties.Resources.resources
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\obj\Debug\FrmFabrica.csproj.GenerateResource.cache
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\obj\Debug\FrmFabrica.csproj.CoreCompileInputs.cache
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\obj\Debug\FrmFabrica.csproj.CopyComplete
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\obj\Debug\FrmFabrica.exe
+C:\Users\WSC30\Desktop\TP4 - RECUPERATORIO\TPFinal\FrmFabrica\obj\Debug\FrmFabrica.pdb
