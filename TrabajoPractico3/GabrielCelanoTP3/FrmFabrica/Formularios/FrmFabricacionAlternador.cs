@@ -172,7 +172,7 @@ namespace FrmFabrica
         {
             try
             {
-                if (this.fabrica.VerificarListaOperadores(this.fabrica))
+                if (this.fabrica.VerificarListaOperadores())
                 {
                     FrmAsignarOperadorAlternador frmAsignarOperadorAlternador = new FrmAsignarOperadorAlternador(this.fabrica, this.operario);
                     frmAsignarOperadorAlternador.ShowDialog();

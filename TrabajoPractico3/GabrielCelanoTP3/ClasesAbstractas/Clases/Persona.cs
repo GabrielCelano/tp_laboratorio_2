@@ -84,7 +84,7 @@ namespace ClasesAbstractas
         /// <returns></returns>
         private int ValidarDni(int dni)
         {
-            if (dni >= 1 && dni < 90000000)
+            if (dni >= 1 && dni <= 99999999)
             {
                 return dni;
             }
@@ -101,7 +101,7 @@ namespace ClasesAbstractas
         /// <returns></returns>
         private bool ValidarString(string str)
         {
-            if (Regex.IsMatch(str, @"^[a-zA-z]+$"))
+            if (Regex.IsMatch(str, @"^[a-zA-Z]+$"))
             {
                 return true;
             }

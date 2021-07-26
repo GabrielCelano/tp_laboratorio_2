@@ -218,9 +218,9 @@ namespace ClasesInstanciables
         /// </summary>
         /// <param name="f"></param>
         /// <returns></returns>
-        public bool VerificarListaOperadores(Fabrica f)
+        public bool VerificarListaOperadores()
         {
-            if (f.Operarios.Count > 0)
+            if (this.Operarios.Count > 0)
             {
                 return true;
             }
@@ -232,9 +232,9 @@ namespace ClasesInstanciables
         /// </summary>
         /// <param name="f"></param>
         /// <returns></returns>
-        public bool VerificarListaAlternadores(Fabrica f)
+        public bool VerificarListaAlternadores()
         {
-            if (f.Alternadores.Count > 0)
+            if (this.Alternadores.Count > 0)
             {
                 return true;
             }
@@ -246,9 +246,9 @@ namespace ClasesInstanciables
         /// </summary>
         /// <param name="f"></param>
         /// <returns></returns>
-        public bool VerificarListaArranques(Fabrica f)
+        public bool VerificarListaArranques()
         {
-            if (f.Arranques.Count > 0)
+            if (this.Arranques.Count > 0)
             {
                 return true;
             }
@@ -262,7 +262,7 @@ namespace ClasesInstanciables
         public string DatosDeLaFabrica()
         {
             StringBuilder fabricaAux = new StringBuilder();
-            fabricaAux.Append(this.MostrarEmpleados());
+            fabricaAux.Append(this.MostrarOperarios());
             fabricaAux.Append(this.MostrarFabricaciones());
             return fabricaAux.ToString();
         }
@@ -271,7 +271,7 @@ namespace ClasesInstanciables
         /// Retorna los datos de los empleados
         /// </summary>
         /// <returns></returns>
-        public string MostrarEmpleados()
+        public string MostrarOperarios()
         {
             StringBuilder fabricaAux = new StringBuilder();
             fabricaAux.AppendLine("Lista de empleados:\n");

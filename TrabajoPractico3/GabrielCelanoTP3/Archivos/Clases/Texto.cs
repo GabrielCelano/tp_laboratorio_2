@@ -24,7 +24,7 @@ namespace Archivos
                         return true;
                     }
                 }
-                catch (Exception e)
+                catch (Exception ex)
                 {
                     throw new ArchivosException();
                 }
@@ -47,7 +47,7 @@ namespace Archivos
                         return true;
                     }
                 }
-                catch (Exception e)
+                catch (Exception ex)
                 {
                     throw new ArchivosException();
                 }

@@ -104,7 +104,7 @@ namespace Test
 
             //Console.WriteLine(Fabrica.Leer(lista));
 
-            Console.WriteLine(lista.MostrarEmpleados());
+            Console.WriteLine(lista.MostrarOperarios());
             Console.ReadKey();
         }
     }

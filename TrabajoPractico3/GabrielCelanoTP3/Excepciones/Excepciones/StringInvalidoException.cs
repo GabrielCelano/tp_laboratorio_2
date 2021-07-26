@@ -8,6 +8,6 @@ namespace Excepciones
 {
     public class StringInvalidoException : Exception
     {
-        public StringInvalidoException() : base("Error en el campo nombre/apellido.") { }
+        public StringInvalidoException() : base("Hola") { }
     }
 }

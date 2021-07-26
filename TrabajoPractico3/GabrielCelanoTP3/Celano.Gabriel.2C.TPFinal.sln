@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrmFabrica", "FrmFabrica\Fr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archivos", "Archivos\Archivos.csproj", "{6CD116BD-9AC9-459D-9845-641B8A9BBA61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestFabrica", "UnitTest_Fabrica\UnitTestFabrica.csproj", "{73C70BCE-A57A-424F-933C-193D4952B632}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{6CD116BD-9AC9-459D-9845-641B8A9BBA61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CD116BD-9AC9-459D-9845-641B8A9BBA61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CD116BD-9AC9-459D-9845-641B8A9BBA61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C70BCE-A57A-424F-933C-193D4952B632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C70BCE-A57A-424F-933C-193D4952B632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C70BCE-A57A-424F-933C-193D4952B632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C70BCE-A57A-424F-933C-193D4952B632}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

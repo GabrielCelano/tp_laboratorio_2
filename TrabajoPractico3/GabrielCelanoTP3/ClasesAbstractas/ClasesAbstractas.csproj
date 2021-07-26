@@ -47,7 +47,7 @@
     <Compile Include="Clases\Arranque.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="DiagramaDeClase.cd" />
+    <None Include="DiagramaDeClaseAbstracta.cd" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Excepciones\Excepciones.csproj">

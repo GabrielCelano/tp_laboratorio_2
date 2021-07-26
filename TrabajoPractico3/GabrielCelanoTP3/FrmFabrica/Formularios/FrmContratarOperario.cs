@@ -70,7 +70,6 @@ namespace FrmFabrica
             {
                 MessageBox.Show(ex.Message, "Error!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-
         }
 
         /// <summary>

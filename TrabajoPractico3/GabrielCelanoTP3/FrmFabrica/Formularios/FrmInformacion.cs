@@ -39,9 +39,9 @@ namespace FrmFabrica
         {
             try
             {
-                if (this.fabrica.VerificarListaOperadores(this.fabrica))
+                if (this.fabrica.VerificarListaOperadores())
                 {
-                    this.rtbLista.Text = this.fabrica.MostrarEmpleados();
+                    this.rtbLista.Text = this.fabrica.MostrarOperarios();
                 }
             }
             catch (Exception ex)
@@ -59,7 +59,7 @@ namespace FrmFabrica
         {
             try
             {
-                if (this.fabrica.VerificarListaArranques(this.fabrica))
+                if (this.fabrica.VerificarListaArranques())
                 {
                     this.rtbLista.Text = this.fabrica.MostrarArranques();
                 }
@@ -79,7 +79,7 @@ namespace FrmFabrica
         {
             try
             {
-                if (this.fabrica.VerificarListaAlternadores(this.fabrica))
+                if (this.fabrica.VerificarListaAlternadores())
                 {
                     this.rtbLista.Text = this.fabrica.MostrarAlternadores();
                 }
